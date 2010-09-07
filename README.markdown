@@ -1,8 +1,9 @@
 Viral persistence for Python
 ----------------------------
 
-User specifies a root object and all other objects that are transitively referenced by it's properties become persistent.
-That means opjects to be persisted are not specified explicitly, this approach is similar to one of Smalltalk.
+User specifies a root object and all other objects that are transitively referenced by objects' properties become persistent.
+That means objects to be persisted are not specified explicitly except root one(s). 
+This approach is similar to one of Smalltalk where you have live system that is automatically persisted.
 
 See main/Main.py for tests and usage examples.
 
